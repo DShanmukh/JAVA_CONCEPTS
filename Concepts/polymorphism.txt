@@ -1,0 +1,58 @@
+Polymorphism:-
+  polymorphism means many forms. i.e single object with different behaviour at different
+places.
+ It is divided into two types :-
+  1). compiletime polymorphism (or) Static polymorphism(or) Early Binding
+mapping of a method call with method definition will decideat compilation only is called 
+compiletime polymorphism.
+EX:-
+               Method overloading
+2).Run time polymorphism (or) Dynamic polymorphism (or) late binding
+mapping of a method call with method definition will decide at execution only is called 
+compiletime polymorphism.
+
+Class A                                                                                   class Mainclass
+{					               		{	
+  public void m1()			           			public static void main(String args[])
+{					                     				A a;						
+system.out.println(“A method ”);           		   a=new A();
+}                                                              			a.m1();
+}                                                                         a=new B();
+class B extends A								a.m1();
+{									   			a=new C();
+public void m1()								a.m1();
+{											}
+    system.out.println(“B method ”);    	   }
+}
+}
+Class C extends A
+{
+public void m1()
+{
+    system.out.println(“C method ”);
+}
+}
+
+
+
+
+interface:-
+1).interface is nothing but a  fully  abstract class . i.e all the method declare in an interface
+are by default public abstract.
+2).in java programming we are allow  to create an interface by using the key word "interface".
+
+
+
+
+3). in the interface we can allow to declare constants only.
+4). it is not possible to create instance to an interface but we can allow to create
+object or reference variable.
+5). if any class that implements the interface ,it should be give the definition for all the method 
+which are declare in interface otherwise implemented class will be
+
+
+
+
+
+
+

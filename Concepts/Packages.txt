@@ -1,0 +1,54 @@
+Packages :-
+--------------
+to reduces the code and comlexicity.
+for clarity.
+naming problems.
+
+                                                                  Packages :-
+Definition:-
+Package is a collections of classes , interfaces and subpackages
+Advantages:-
+1).Reusablity:
+the class contained in the package of another program can easily reused
+2).name conflicts:
+ packages helps us to uniquely identify class ,for Example 
+we can have company.sales.Employeeand company.marketing.Employee classes
+ 3).Maintainces:-
+with packages we can organize the project  in the better way.
+predefined packages:-
+the packages which are created by the java developer are called predefined packages.
+EX:-
+  java.util  -> it includes the classes  and interfaces for utility purpose. 
+                    Ex:-array,scanner,strack.
+  java.lang-> it includes the  calsses and interfaces related languages fundamentals
+                   EX:-string ,math,integer,character...
+ java.io->   it includes  related to  input and output functionality.
+EX:-file reader,bufferedreader
+java.awt-> It includes classes and interfaces related to design GUI applications.
+Ex:-  button
+java.net ->  It includes classes and interfaces related to network applications.
+         inetaddress,URL.......
+how to import the predefined packages :-
+1)import packagename.subpackagename.classname;
+ex:-
+        import java.util.Scanner;
+2) import packagename.subpackagename.*;
+ex:-
+       import java.util.*;
+import java.util.Date;
+class Date1
+{
+public static void main (String args[])
+{
+ Date  d=new Date();
+ System.out.println(d);
+System.out.println(d.getDate());
+}
+}
+1.make easy searching or location of class and interfaces.
+2.avoid naming conflicts.
+3.implements data encapsulation (or ) data -hiding.
+4.provie controlled access : the access specifier protected and default have access control in packages.
+
+
+

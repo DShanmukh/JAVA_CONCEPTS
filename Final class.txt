@@ -1,0 +1,19 @@
+final:-
+-------
+1).
+
+
+
+
+
+
+
+parent 
+           m1();
+           m2();
+           m3();                                                      parent p=new child()
+
+child extends parent                                               p.m1();exected from parent class
+            m3();								         p.m2();exected from parent class
+            m4();									   p.m3();exected from Child class
+            m5();									p.m5(); not executed because their is no m5 method in the parent class.

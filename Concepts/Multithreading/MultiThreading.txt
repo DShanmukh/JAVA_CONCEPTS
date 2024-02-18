@@ -1,0 +1,10 @@
+Garbage collection is considered as the DemonThread.
+
+MultiTasking
+executing several task simultaneously is called "multi Tasking".
+There are 2 types of multitasking
+1)Process-based multitasking.
+2)Thread-based multitasking.
+Executing several tasks simultaneously
+process based on the Operating System.
+threading concept is  based multitasking is best suitable at programmatic level.

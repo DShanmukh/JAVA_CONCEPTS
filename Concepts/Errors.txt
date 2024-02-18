@@ -1,0 +1,58 @@
+Error:
+Errors are the problems or the faults of that occur in the programm ,which makes the behaviour of the programm abnormal.
+ Types of error 
+ 1)Syntactical  error:-
+   every program follows some syntax to develop a program.if you voilate the any of the syntax rules then these errors will be generated 
+EX:
+  System.out.println() =>; missing.
+System.out.print("hello);=> // must include string in double quotes 
+2. Logical error
+   if you write the logic in wrong way the output you are getting is not what  the output you are expected.
+3.Run time error:
+the system unable to  execute at the run time is known as Run time error.
+Exeception Handling:-
+it is a process of provinding a alternative way to continue the  rest of the program execution
+even an exeception raised in your code.
+there are 5 keywords are there to handle exceptions.
+1)try⁬
+2)catch
+3)throw
+4)throws
+4)finally
+
+1)TRY:- it is block used to include the statement chances to generate an exception.
+[Risky code]
+if you try block in your  code it must associated with either catch or finally block.
+2)Catch:-
+it is 
+             
+
+
+Types of exception:-
+===========
+Exception are basically classified into 2 types 
+1.Built -in Exception or predefined Exception
+Exceptions which are created by the java developer are called Builtin Exception.
+EX:-
+Arithmetic  Exception , NullPointerException,ArrayIndexOfBoundsException,FileNotFoundException,
+NumberFormatException,ETC....
+USER Defined or Custom Exceptions
+Exception classes which are created by the user as per their requirement are called USER Defined or Custom Exceptions.
+EX:-
+TooYoungException 
+InsufficientBalException etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
