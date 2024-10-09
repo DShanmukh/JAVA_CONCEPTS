@@ -1,9 +1,9 @@
 import java.util.Scanner;
-class Sha{
+class Sumofdiagonals{
   public static void main(String args[])
   {
     Scanner sc=new Scanner(System.in);
-    int n,m,a[][],s=0,i,j,s1=0;
+    int n,m,a[][],i,j;
     n=sc.nextInt();
     m=sc.nextInt();
     a=new int[n][m];
@@ -13,20 +13,11 @@ class Sha{
         a[i][j]=sc.nextInt();
       }
     }
-    for(i=0;i<n;i++)
-    {
-      for(j=0;j<m;j++)
-      {
-        if(i==j)
-        {
-          s+=a[i][j];
-        }
-        if((i==0 && j==(m-1) ) || (i==n-1 && j==0))
-        {
-          s1 +=a[i][j];
-        }
+    for(j= 0 ;j< m ;j++){
+      for(i=0 ; i < n;i++){
+        System.out.print((a[i][j])+" ");
       }
+      System.out.println();
     }
-    System.out.print(s1+s);
   }
 }
